@@ -24,7 +24,7 @@ This application allows users to create, attempt quizzes, and view their scores.
 
 ### 3. Video Instructions  
 For detailed guidance, refer to the video tutorial:  
-[Google Drive Link](#)  
+[Google Drive Link](google.com)  
 
 ---  
 
