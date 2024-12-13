@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "3056423d-4424-4a06-8fce-848e21789d5a",
+		"name": "QuizApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31776193"
+	},
+	"item": [
+		{
+			"name": "CREATE QUIZ SESSION",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"3\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/quiz/create-quiz-session",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"quiz",
+						"create-quiz-session"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET QUIZ SESSION",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET QUIZ QUESTIONS",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ATTEMPT QUESTION",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

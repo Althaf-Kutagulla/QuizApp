@@ -7,6 +7,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 
 @Entity
 @Table(name = "questions")
@@ -22,4 +24,6 @@ public class Question {
     private String question;
     private String answer;
 
+    @OneToMany(mappedBy = "question", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    private List<Choice> choices;
 }
